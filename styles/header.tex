@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[a4paper,hmargin={2cm,2cm},vmargin={2cm,2cm},nohead]{geometry}
+\usepackage{mathtext}
+\usepackage{ucs}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian,english]{babel}
+
+\usepackage[pdftex]{graphicx}
+\usepackage[a4paper,pdftex,unicode,colorlinks=true]{hyperref}
+
+\def\museincludegraphics{%
+  \begingroup
+  \catcode`\|=0
+  \catcode`\\=12
+  \catcode`\#=12
+  \includegraphics[width=0.75\textwidth]
+}
+
+\def\thechapter       {}
+\def\thesection       {}
+\def\thesubsection    {}
+\def\thesubsubsection {}
+\def\theparagraph     {}
+
+\begin{document}
+
+\section*{<lisp>(muse-publish-escape-specials-in-string  
+(muse-publishing-directive "title") 'document)</lisp>}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

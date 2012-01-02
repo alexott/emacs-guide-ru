@@ -1,0 +1,30 @@
+/* andreas01 - a free xhtml/css website template by Andreas Viklund - http://andreasviklund.com/ - that may be used for any purpose as long as the proper credits are given to the original designer.
+Version: 2.5 (Jan 11, 2007)
+Print layout: */
+body{margin:0 auto;
+padding:0;
+font-family:"Times New Roman",serif;
+background:#ffffff;
+color:#000000;}
+#wrap{margin:2%;
+width:auto;
+float:none !important;}
+#header h1{margin:0 0 25px 0;}
+#header p{display:none;}
+#frontphoto, #leftside, #extras, .announce, .hide, #footer, #rule, .contents{display:none;}
+#content img, #contentwide img, #contentwide2 img{/* display:none; */}
+a{text-decoration:underline;
+color:#0000ff;
+background-color:inherit;}
+#content ul, #contentwide ul, #contentwide2 ul, #content ol, #contentwide ol, #contentwide2 ol{margin:5px 0 16px 20px;
+padding:0;}
+#content li, #contentwide li, #contentwide2 li{margin:0;
+padding:4px 0 0 5px;}
+#content ul ul, #contentwide ul ul, #contentwide2 ul ul, #content ol ol, #contentwide ol ol, #contentwide2 ol ol{margin:5px 0 0 16px;
+padding:0;}
+#content h2,#contentwide h2, #contentwide2 h2{font-size:1.4em;
+margin:0 0 6px;}
+#content h3,#contentwide h3, #contentwide2 h3{font-size:1.3em;
+margin:0 0 5px;}
+#content h4,#contentwide h4, #contentwide2 h4{font-size:1.2em;
+margin:0 0 5px;}

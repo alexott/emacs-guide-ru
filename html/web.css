@@ -1,0 +1,211 @@
+/* andreas01 - a free xhtml/css website template by Andreas Viklund - http://andreasviklund.com/ - that may be used for any purpose as long as the proper credits are given to the original designer.
+Version: 2.5 (Jan 11, 2007)
+Screen layout: */
+body {margin:0 auto;
+padding:0;
+font:83% Verdana,Tahoma,Arial,sans-serif;
+background:#f4f4f4 url(bg.gif) top center repeat-y;
+color:#404040;}
+td {font:83% Verdana,Tahoma,Arial,sans-serif;
+background:#f4f4f4 url(bg.gif) top center repeat-y;
+color:#404040;}
+th{font:83% Verdana,Tahoma,Arial,sans-serif;
+background:#f4f4f4 url(bg.gif) top center repeat-y;
+color:#404040;
+font-weight: bold;}
+#wrap{background:#ffffff;
+color:#404040;
+margin:0 auto;
+width:950px;}
+a{text-decoration:none;
+font-weight:bold;
+color:#286ea0;
+background-color:inherit;}
+a:hover{text-decoration:underline;
+color:#286ea0;
+background-color:inherit;}
+a img{border:0;}
+p{margin:0 0 0.7em 0;}
+#header{margin:10px 0 0;
+padding:0;
+height:65px;}
+#header h1{color:#505050;
+background-color:inherit;
+width:600px;
+margin:0 0 10px;
+font-size:1.4em;
+float:left;}
+#header h1 a{color:#505050;
+background-color:inherit;
+text-decoration:none;}
+#header p{width:350px;
+float:right;
+text-align:center;
+margin:8px 0 0;
+font-weight:bold;
+line-height:1.1em;}
+#frontphoto{margin:0 0 10px;
+border:0;}
+/***** Left sidebar *****/
+#leftside{clear:left;
+float:left;
+width:180px;
+margin:0 0 5px;
+padding:0;}
+#leftside h2,#leftside h3{color:#505050;
+background-color:inherit;
+font-size:1.3em;
+margin:0 0 5px;
+padding:0;}
+#leftside div.announce{clear:left;
+margin:10px 0 15px;
+padding:7px 5px;
+width:166px;
+font-size:0.9em;
+background-color:#f4f4f4;
+color:#505050;
+border-left:4px solid #cccccc;
+line-height:1.5em;}
+#leftside div.announce p{margin:10px 0 0;
+padding:0;}
+/***** Main menu *****/
+ul.avmenu{width:180px;
+margin:0 0 18px;
+padding:0;
+list-style:none;}
+ul.avmenu li{width:180px;
+padding:0;
+line-height:1.4em;
+display:inline;}
+ul.avmenu li a{background-color:#f4f4f4;
+color:#505050;
+font-weight:bold;
+width:170px;
+float:left;
+margin-bottom:5px;
+padding:5px 1px 5px 5px;
+border-left:4px solid #cccccc;
+text-decoration:none;}
+ul.avmenu li a:hover,ul.avmenu li a.current{background-color:#eaeaea;
+border-left:4px solid #286ea0;
+color:#505050;}
+ul.avmenu ul{margin:0 0 0 15px;
+padding:0 0 5px 0;
+font-size:0.9em;
+width:170px;}
+ul.avmenu ul a{padding:3px 1px 3px 5px;
+font-weight:normal;
+width:155px;}
+ul.avmenu ul ul{width:153px;}
+ul.avmenu ul ul a{width:140px;}
+/***** Right sidebar *****/
+#extras{float:right;
+width:10px;
+margin:0 0 5px;
+padding:0;
+line-height:1.4em;}
+#extras p, #extras ul{margin:0 0 16px;
+padding:0;}
+#extras p{font-size:0.9em;
+line-height:1.4em;}
+#extras li{list-style:none;
+line-height:1.2em;
+margin:0 0 6px 0;
+padding:0;}
+#extras ul ul{margin:6px 0 0 10px;
+padding:0;}
+#extras ul ul li{margin: 0 0 4px 0;}
+#extras ul ul li a{font-size:1.1em;
+font-weight:normal;}
+#extras h2, #extras h3{color:#505050;
+background-color:inherit;
+font-size:1.2em;
+margin:0 0 8px;
+padding:0;}
+/***** Main content *****/
+#content{margin:0 190px 5px 150px;
+border-left:1px solid #e0e0e0;
+border-right:1px solid #e0e0e0;
+padding:0 10px;
+line-height:1.3em;}
+#contentwide{margin:0 0 5px 190px;
+border-left:1px solid #f0f0f0;
+padding:0 0 0 10px;
+line-height:1.3em;
+width: 70%}
+#contentwide2{margin:0 190px 5px 0;
+border-right:1px solid #f0f0f0;
+padding:0 10px 0 0;
+line-height:1.3em;}
+.muse-table{font: 100% Verdana,Tahoma,Arial,sans-serif; 
+}
+#content h2,#contentwide h2, #contentwide2 h2{font-size:1.4em;
+margin:4px 0 10px;}
+#content h3,#contentwide h3, #contentwide2 h3{font-size:1.2em;
+margin:5px 0 5px;}
+#content h4,#contentwide h4, #contentwide2 h4{font-size:1.1em;
+margin:0 0 5px;}
+#screenshot img{padding:1px;
+display:inline;
+background:#cccccc;
+color:#303030;
+border:4px solid #f0f0f0;
+width: 750px;}
+#content ul, #contentwide ul, #contentwide2 ul, #content ol, #contentwide ol, #contentwide2 ol{margin:5px 0 16px 20px;
+padding:0;}
+#content li, #contentwide li, #contentwide2 li{margin:0;
+padding:4px 0 0 5px;}
+#content ul ul, #contentwide ul ul, #contentwide2 ul ul, #content ol ol, #contentwide ol ol, #contentwide2 ol ol{margin:5px 0 0 16px;
+padding:0;}
+#rule{clear:both;
+margin:0 auto;
+padding:10px 0; 
+border-top:2px solid #e0e0e0;
+text-align:center;
+color:#808080;
+background:#ffffff;
+font:83% Verdana,Tahoma,Arial,sans-serif;}
+#lastchange{clear:both;
+margin:0 auto;
+padding:2px 0; 
+text-align:left;
+color:#808080;
+background:#ffffff;
+font:83% Verdana,Tahoma,Arial,sans-serif;}
+/***** Footer *****/
+#footer{clear:both;
+margin:0 auto;
+padding:15px 0;
+border-top:4px solid #f0f0f0;
+width:950px;
+text-align:center;
+color:#808080;
+background:#ffffff;}
+#footer p{margin:0;
+padding:0;}
+#footer a{color:#808080;
+background-color:#ffffff;
+text-decoration:none;
+font-weight:bold;}
+#footer a:hover{text-decoration:underline;}
+/***** Various classes *****/
+.left{margin:3px 10px 2px 0;
+float:left;}
+.right{margin:2px 0 2px 10px;
+float:right;}
+.textright{text-align:right;}
+.center{text-align:center;}
+.small{font-size:0.8em;}
+.bold{font-weight:bold;}
+.postinfo{background-color:#f4f4f4;
+border-left:4px solid #cccccc;
+color:#606060;
+font-size:0.9em;
+line-height:1.4em;
+margin:1px 0 20px;
+padding:8px 5px 8px 8px;}
+.clearing{clear:left;
+padding:0;
+margin:0;
+visibility:hidden;}
+.hide{display:none;}

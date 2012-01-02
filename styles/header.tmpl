@@ -3,13 +3,12 @@
   <head>
     <title><lisp>(muse-publishing-directive "title")</lisp></title>
     <meta name="generator" content="muse.el" />
-    <meta name="author" content="Alex Ott" />
     <meta http-equiv="<lisp>muse-html-meta-http-equiv</lisp>" 
           content="<lisp>muse-html-meta-content-type</lisp>" />
     <lisp>
       (let ((keywords (muse-publishing-directive "keywords")))
         (when keywords
-          (concat "<meta name=\"keywords\" content=\"alex ott, " keywords "\" />")))
+          (concat "<meta name=\"keywords\" content=\"" keywords "\" />")))
     </lisp>
     <lisp>
       (let ((refresh (muse-publishing-directive "refresh")))
@@ -22,44 +21,8 @@
           (concat "<link rev=\"made\" href=\"" maintainer "\" />")))
     </lisp>
 	 <link rel="stylesheet" type="text/css" charset="utf-8" media="screen,projection" 
-         href="<lisp>(muse-gen-relative-name "web.css")</lisp>" />
-    <link rel="stylesheet" type="text/css" 
-          href="<lisp>(muse-gen-relative-name "print.css")</lisp>" media="print" />
-    <link rel="alternate" type="application/atom+xml" title="Alex Ott's Russian Blog" 
-          href="http://feeds.feedburner.com/alexott-ru" />
-    <link rel="alternate" type="application/atom+xml" title="Alex Ott's English Blog" 
-          href="http://feeds.feedburner.com/alexott" />
-    <link rel="alternate" type="application/atom+xml" title="Alex Ott's German Blog" 
-          href="http://feeds.feedburner.com/alexott-de" />
+         href="html/web.css" />
+    <link rel="stylesheet" type="text/css" href="html/print.css" media="print" />
   </head>
   <body>
-    <div id="wrap">
-
-      <div id="header">
-        <h1><lisp>(muse-publishing-directive "title")</lisp></h1>
-        <p>
-          <a href="<lisp>(muse-gen-relative-name "ru/index.html")</lisp>">Russian</a> 
-          <!-- &middot; <a href="<lisp>(muse-gen-relative-name "de/index.html")</lisp>">German</a> -->
-          &middot; <a href="<lisp>(muse-gen-relative-name "en/index.html")</lisp>">English</a>
-        </p> 
-
-      </div>
-
-      <div id="leftside">
-        <h2 class="hide">Меню:</h2>
-        
-        <lisp>(muse-mp-generate-menu)</lisp>
-
-<div class="announce">
-<br>
-<form action="http://www.google.com/cse" id="searchbox_006849776194404728512:q7vjogjzehm">  
-<input type="hidden" name="cx" value="006849776194404728512:q7vjogjzehm">  
-<input type="text" name="q" size="17">  <input type="submit" name="sa" value="Search"> </form>
-<script type="text/javascript"
-        src="http://www.google.com/coop/cse/brand?form=searchbox_006849776194404728512%3Aq7vjogjzehm&lang=ru">
-</script>
-</div>
-
-</div> <!-- leftside -->
-
 <div id="contentwide">
